@@ -1,26 +1,30 @@
-#fot{
-    background-image:linear-gradient(to right,rgba(258,258,258,0.4),rgba(5,5,5,0.5));
-    background-size: cover;
+#form1 {
+    position: absolute;
+    background-color: #f1f1f1;
+    padding-left: 4vw;
+    margin-top: 10vh;
+    margin-left: 30vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 5px;
+    position: relative;
+    width: 28vw;
+    border: 1px solid black;
 }
-#email1{
-    color: black;
-}
-.header{
-    background-image:linear-gradient(to top, rgba(5,5,5,0.5),rgba(0,226,226,0.9)) ;
-    padding: 20pt;
-}
-.header1{
-    background-image:linear-gradient(to top, rgba(5,5,5,0.5),rgba(0,226,226,0.9)) ;
-    padding: 20pt;
-}
-.form-label{
-    font-weight: bold;
-    font-size: 20pt;
-    text-align: center;
-    padding: 10pt;
-}
-input{
-    /* height: 20pt;
-    width: 20pt; */
 
+button a {
+    text-decoration: none;
+}
+
+#ex {
+    position: absolute;
+    margin-left: 22vw;
+    border-radius: 5px;
+    border: none;
+    margin-top: -1.6vw;
+    text-transform: uppercase;
+}
+
+#ex:hover {
+    border: 1px solid black
 }

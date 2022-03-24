@@ -21,8 +21,8 @@ body {
     z-index: -1;
 }
 
-.nav {
-    position: fixed;
+a {
+    text-decoration: none;
 }
 
 .logo {

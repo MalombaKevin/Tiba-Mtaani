@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hospital sign up</title>
+    <link rel="stylesheet" href="log.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container">
+        <form id="form1">
+
+            <button id="ex">x</button>
+
+            <label for="hospName">Hospital Name</label>
+            <br>
+            <input type="text" id="hospName" placeholder="Enter Your Hospital Name" required>
+            <br>
+
+            <label for="contact">Phone Number/Office number</label>
+            <br>
+            <input type="tel" id="phnenumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="+254 123456789">
+            <br>
+            <label for="Location">Location</label>
+            <br>
+            <input type="text" id="Location" placeholder="Where are you located" required>
+            <br>
+
+            <label for="InputEmail1">Email address</label>
+            <br>
+            <input type="email" id="Email1" aria-describedby="email1" required>
+            <br>
+            <div id="email1" class="form-text">We'll never share your email with anyone else.</div>
+
+            <label for="Services"> Select Services that you are offering</label>
+            <br>
+
+            <select name="services" id="services">
+            <option value="onco">Oncology</option>
+            <option value="gyna">Gynaecologist</option>
+            <option value="paed">paedetrician</option>
+            <option value="gen">Gynaecologist</option>
+            <option value="ent">E.N.T</option>
+        </select>
+
+            <br>
+
+            <label for="upload">Upload your license</label>
+            <br>
+            <input type="file" id="file" required>
+            <br>
+            <label for="InputPassword1">Create Password</label>
+            <br>
+            <input type="password" id="InputPassword1" required>
+            <br>
+            <button type="submit" class="btn btn-primary mt-2">Submit</button>
+
+        </form>
+
+    </div>
+</body>
+
+</html>
