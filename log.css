@@ -1,3 +1,7 @@
+body {
+    background-color: #093535 !important;
+}
+
 #form1 {
     position: absolute;
     background-color: #f1f1f1;
@@ -18,19 +22,24 @@ button a {
 
 #ex {
     position: absolute;
-    margin-left: 23vw;
+    margin-left: 22vw;
     border-radius: 5px;
     border: none;
-    margin-top: -1.7vw;
+    margin-top: -1.6vw;
     text-transform: uppercase;
-    padding:2px;
-    
 }
 
 #ex:hover {
-    border: 1px solid black;
-    padding-top:2px;
-    padding-left: 5px;
-    background-color:red;
-    color:white;
+    border: 1px solid black
+}
+
+input {
+    outline: none !important;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 1px #093535;
+}
+
+#file {
+    width: 19vw;
 }
