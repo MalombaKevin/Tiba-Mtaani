@@ -104,3 +104,13 @@ footer ul {
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
 }
+i {
+	font-size: 200%;
+	color: rgb(96, 208, 245);
+}
+#footerLinks li a{
+	color: white;
+}
+#footerLinks li a:hover, i:hover{
+	color:yellow;
+}

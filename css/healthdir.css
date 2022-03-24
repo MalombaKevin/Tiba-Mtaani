@@ -91,7 +91,16 @@ svg {
 .col-md-4:hover {
     background-color: #0d4a4a60;
 }
-
+i {
+	font-size: 200%;
+	color: rgb(96, 208, 245);
+}
+#footerLinks li a{
+	color: white;
+}
+#footerLinks li a:hover, i:hover{
+	color:yellow;
+}
 
 /*SIGNUP DOCTOR*/
 
