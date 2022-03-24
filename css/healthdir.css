@@ -9,6 +9,12 @@
 a {
     text-decoration: none;
 }
+.tv{
+    color:gold;
+}
+.tv:hover{
+    color:blue;
+}
 
 .nav {
     display: flex;

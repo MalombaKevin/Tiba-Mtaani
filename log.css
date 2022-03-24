@@ -18,13 +18,19 @@ button a {
 
 #ex {
     position: absolute;
-    margin-left: 22vw;
+    margin-left: 23vw;
     border-radius: 5px;
     border: none;
-    margin-top: -1.6vw;
+    margin-top: -1.7vw;
     text-transform: uppercase;
+    padding:2px;
+    
 }
 
 #ex:hover {
-    border: 1px solid black
+    border: 1px solid black;
+    padding-top:2px;
+    padding-left: 5px;
+    background-color:red;
+    color:white;
 }
