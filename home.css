@@ -83,6 +83,24 @@ a {
     margin-left: 10%;
 }
 
+table {
+    margin-left: 20%;
+    display: none;
+}
+
+th {
+    color: gold;
+}
+
+td {
+    color: #f1f1f1;
+}
+
+th,
+td {
+    border: 1px solid black;
+}
+
 select {
     outline: none !important;
     border: none;
