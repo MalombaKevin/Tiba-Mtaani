@@ -2,7 +2,7 @@ body {
     background-color: #093535 !important;
 }
 
-#form1 {
+form {
     position: absolute;
     background-color: #f1f1f1;
     padding-left: 4vw;
