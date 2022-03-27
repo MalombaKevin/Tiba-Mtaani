@@ -124,7 +124,7 @@ a {
     padding: 3% 0;
     gap: 10px;
     text-align: center;
-    margin:2%;
+    margin: 2%;
 }
 
 .col-lg-3 h5 {
@@ -230,4 +230,253 @@ a {
 
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
+}
+
+
+/* compare */
+
+@import url('https://fonts.googleapis.com/css2?family=Cousine:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cousine', monospace;
+}
+
+body {
+    background-color: #0D4A4A;
+}
+
+.bkg {
+    background-image: url("assets/about-bg.svg");
+    position: absolute;
+    height: 120vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+.nav ul {
+    list-style: none;
+    margin-left: 30vw;
+}
+
+.nav ul li {
+    display: inline;
+    margin: 0 2rem;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+#hero {
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading h1 {
+    text-transform: capitalize;
+    color: #f1f1f1;
+}
+
+.linespan {
+    height: 3px;
+    width: 60px;
+    background-color: gold;
+}
+
+.search {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+}
+
+#about-s {
+    width: 30vw;
+    height: 25px;
+    border: none;
+    outline: none !important;
+    border-bottom: 2px solid gold;
+    background-color: #ffffff2f;
+    caret-color: gold;
+}
+
+#iconSearch {
+    margin-left: 5vw;
+}
+
+#hero p {
+    width: 70vw;
+    margin-top: 5%;
+    text-align: center;
+    color: #f1f1f1;
+}
+
+#hero span {
+    margin-top: 5%;
+    text-transform: uppercase;
+    color: gold;
+    font-size: 28px;
+}
+
+.cardImg {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 2%;
+    background-position: center;
+    background-size: cover;
+}
+
+#cards {
+    margin-top: 5%;
+}
+
+.col-lg-3 {
+    background-color: #0f292f77;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3% 0;
+    gap: 10px;
+    text-align: center;
+}
+
+.col-lg-3 h5 {
+    text-transform: uppercase;
+    color: gold;
+}
+
+#card1 {
+    background-image: url("assets/card1.png")
+}
+
+#card2 {
+    background-image: url("assets/card2.png");
+}
+
+#card3 {
+    background-image: url("assets/card3.png");
+}
+
+.col-lg-3 p {
+    width: 20vw;
+    color: #f1f1f1;
+}
+
+#statistics {
+    margin-top: 10vh;
+}
+
+.row2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-md-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3% 0;
+    color: #f1f1f1;
+    text-transform: capitalize;
+    gap: 10px;
+}
+
+.hiring {
+    padding: 5% 0;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("assets/hiring.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.col-md-6 h4 {
+    background-color: #0f292f69;
+    padding: 10px 0;
+}
+
+#map {
+    background-image: url("assets/snazzy-image.png");
+    background-position: center;
+    background-size: cover;
+    width: 42vw;
+    height: 50vh;
+}
+
+
+/*SIGNUP DOCTOR*/
+
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+footer {
+    background-color: #093535;
+}
+
+footer ul {
+    list-style: none;
+    color: #f1f1f1;
+    padding: 3% 0;
 }
